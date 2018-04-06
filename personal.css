@@ -1,0 +1,193 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.parallax {
+ 	background-image: url("background.jpg");
+ 	min-height: 100%;
+ 	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100%;
+  	border-bottom: 25px;
+}
+
+.mainBox {
+	color: white;
+	text-align: center;
+	width: 282px;
+	height: 450px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 85px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.4);
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: 3.5px;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Open Sans Condensed;
+}
+
+.profPic {
+	height: 175px;
+	border-radius: 50%;
+}
+
+h5 {
+	margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+h3 {
+	text-align: center;
+	font-family: Open Sans Condensed;
+	font-size: 45px;
+}
+
+p {
+	font-family: Montserrat;
+	font-size: 17px;
+	vertical-align: middle;
+	margin-top: 35px;
+}
+
+.lineBreak {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 80%;
+	border-top: solid 1px white;
+}
+
+.linkButtons {
+	text-align: center;
+	margin-top: 120px;
+}
+
+.space {
+	display: inline-block;
+	width: 40px;
+}
+
+button {
+	font-size: 20px;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px grey;
+}
+
+button:hover {background-color: grey}
+
+button:active {
+	background-color: grey;
+	transform: translateY(4px);
+}
+
+.border {
+	margin-bottom: 100px;
+}
+
+.navbar {
+	height: 30px;
+	width: 100%;
+    background-color: rgb(64, 64, 64);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    border-radius: 0;
+    min-height: 60px;
+    z-index:1;
+}
+
+#title {
+	margin-left: 35px;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover { 
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	border-bottom-color:rgba(255,255,255,0);
+	text-decoration: none;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+
+#navbar-right {
+	float: right;
+	margin-right: 35px;
+}
+
+#slotMachine {
+	text-align: center;
+}
+
+#aboutMe {
+	color: white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: center;
+}
+
+#projectHeader {
+	margin-bottom: 15px;
+}
+
+#projects {
+	color: white;
+	background-color:#333333;
+	text-align:center;padding:0 80px;
+	text-align: center;
+}
+
+#CppChange:hover {
+  	opacity: 0.5;
+}
+
+#JavaChange:hover {
+  	opacity: 0.5;
+}
+
+#WebChange:hover {
+  	opacity: 0.5;
+}
+
+.description {
+	margin-top: 65px;
+}
+
+.gallery {
+	border: 2px solid rgb(64, 64, 64);
+}

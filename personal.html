@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talha Siddiqui</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="personal.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="navbar">
+		<a href="#_home" id="title">Talha Siddiqui</a>
+		<div id="navbar-right">
+			<a href="#about_me">About Me</a>
+			<span class="space"></span>
+			<a href="#_projects">Projects</a>
+			<span class="space"></span>
+			<a href="#contact_me">Contact Me</a>
+		</div>
+	</div>
+
+	<div class="parallax" id="_home">
+		<div class="border">
+			<div class="mainBox">
+				<img src="me.jpg" class="profPic">
+				<h1>TALHA SIDDIQUI</h1>
+				<div class="lineBreak"></div>
+				<h5>Computer Science Student at<br>The University of Illinois<br>at Chicago</h5>
+			</div>
+			<div class="linkButtons">
+				<a href="TalhaResume.docx" download="TalhaResume.docx"><button>Resume</button></a>
+			</div>
+		</div>	
+	</div>
+
+	<div style = "background-color:#333333;">
+		<div id="about_me">
+			<div id="aboutMe" class="container">
+				<h3>About me</h3>
+				<p>My name is Talha Siddiqui and I am a Mathematics and Computer Science student at the University of Illinois at Chicago. I am an aspiring software/web developer whose passion is creating something great from nothing. I have experience with a multitude of languages such as C++, Java, and Python as well as Front and Backend knowledge including HTML, CSS, JavaScript, jQuery, and Node JS.</p>
+			</div>
+		</div>
+		
+		<div id="_projects">
+			<br>
+			<p></p>
+			<div id="projects">
+				<h3 id="projectHeader">Projects</h3>
+				<br>
+				<div class="container">
+
+					<!-- For the C++ Program -->
+					<div class="row">
+						<div class="col-lg-6"><img class="gallery" id="CppChange" onclick="changeCpp()" width="400" height="350" src="cpp1.png"></div>
+						<div class="col-lg-6">
+							<p class="description"><strong>Slot Machine</strong> <br>
+								This C++ program simulates a slot machine. In the program, you can add money to your account, place your bets, and play a simulated version of a slot machine which uses ASCII characters to display the icons typically used in slot machines.
+							</p>
+						</div>
+					</div>
+
+					<!-- For the Java Program -->
+					<div class="row">
+						<div class="col-lg-6"><img class="gallery" id="JavaChange" onclick="changeJava()" width="400" height="350" src="java1.gif"></div>
+						<div class="col-lg-6">	
+							<p class="description"><strong>Image Manipulator</strong> <br>
+								This Java program takes an image and manipulates the pixels to attain certain effects. These effects include shifting the image in 4 different directions, flipping the image horizontally and vertically, expanding the image and changing the RGBA properties of the image.
+							</p>
+						</div>
+					</div>
+
+					<!-- For the Web Application -->
+					<div class="row">
+						<div class="col-lg-6"><img class="gallery" id="WebChange" onclick="changeWeb()" width="400" height="350" src="web1.gif"></div>
+						<div class="col-lg-6">
+							<a href="http://tsiddi6.people.uic.edu/Color%20Game/colorGame.html" target="_blank"><p class="description"><strong>Color Guessing Game</strong></a> <br>
+								This web application uses HTML, CSS and JavaScript to create a RGB color guessing game. This program uses JavaScript to manipulate the HTML and CSS elements of the application to perform actions such as changing the color of the game bar, adding animations to the game elements and resetting the game. Click the title to try it out!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact_me">
+			<div id="aboutMe">
+				<h3>Contact Me</h3>
+
+				<p>E-mail: siddiquit21097@gmail.com <br>
+				   Phone Number: (630)-478-5001 <br>
+				   </p>
+				   <a href="https://www.linkedin.com/in/talha-siddiqui-235aa744/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+				   <a href="https://github.com/siddiquit97" target="_blank"><i class="fab fa-github-square fa-4x"></i></a>
+				   
+			</div>
+		</div>
+	</div>
+	
+
+
+	<script type="text/javascript" src="personal.js"></script>
+
+
+</body>
+</html>
